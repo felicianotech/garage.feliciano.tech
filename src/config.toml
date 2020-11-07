@@ -1,0 +1,66 @@
+baseurl = "https://garage.Feliciano.Tech/"
+title = "Feliciano.Tech Garage"
+languageCode = "en-us"
+theme = "ftech-garage-2020"
+
+googleAnalytics = "UA-182295425-1"
+disqusShortname = ""
+
+enableEmoji = true
+
+[params]
+	description	= "This is my (Ricardo N Feliciano) personal website. A place for me to blog and share my projects."
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "YouTube"
+	url		= "https://www.youtube.com/channel/UCpxPWtJNGZvFijxlEEQMzQg/"
+	weight	= 10
+
+[[menu.main]]
+	name	= "Newsletter"
+	url		= "/newsletter/"
+	weight	= 15
+
+[[menu.main]]
+	name	= "About"
+	url		= "/about/"
+	weight	= 20
+
+[[menu.main]]
+	name	= "Contact"
+	url		= "/contact/"
+	weight	= 25
+
+
+[[menu.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UCpxPWtJNGZvFijxlEEQMzQg/"
+    weight = 1
+
+[[menu.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/FelicianoTechGarage/"
+    weight = 2
+
+[[menu.social]]
+    url = "https://facebook.com/FelicianoTechGarage"
+    name = "facebook"
+    weight = 3
+
+[[menu.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/company/felicianotechgarage/"
+    weight = 4
