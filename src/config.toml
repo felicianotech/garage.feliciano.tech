@@ -25,8 +25,8 @@ enableEmoji = true
 	weight	= -1
 
 [[menu.main]]
-	name	= "YouTube"
-	url		= "https://www.youtube.com/channel/UCpxPWtJNGZvFijxlEEQMzQg/"
+	name	= "Videos"
+	url		= "/videos/"
 	weight	= 10
 
 [[menu.main]]
@@ -43,6 +43,11 @@ enableEmoji = true
 	name	= "Contact"
 	url		= "/contact/"
 	weight	= 25
+
+[[menu.main]]
+	name	= "YouTube"
+	url		= "https://www.youtube.com/channel/UCpxPWtJNGZvFijxlEEQMzQg/"
+	weight	= 30
 
 
 [[menu.social]]
